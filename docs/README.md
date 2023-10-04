@@ -14,8 +14,8 @@
 
 ### DEEPSOURCE
 
-[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/194-arrays.svg/?label=active+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/194-arrays/)
-[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/194-arrays.svg/?label=resolved+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/194-arrays/)
+[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/194-arrays.svg/?label=active+issues&show_trend=true&token=zM_ICd2rrd00pjS5pf6hUAai)](https://app.deepsource.com/gh/KevinNitroG/194-arrays/)
+[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/194-arrays.svg/?label=resolved+issues&show_trend=true&token=zM_ICd2rrd00pjS5pf6hUAai)](https://app.deepsource.com/gh/KevinNitroG/194-arrays/)
 
 <!-- ![Codecov](https://img.shields.io/codecov/c/github/KevinNitroG/194-arrays?style=for-the-badge) -->
 
@@ -60,6 +60,6 @@ Làm bài tập nhóm `194 arrays`
 
 -   [Trần Nguyễn Thái Bình](https://github.com/KevinNitroG) _(23520161)_
 -   [Trương Hoàng Khiêm](https://github.com/truonghoangkhiem) _(23520730)_
--   []() _()_
--   []() _()_
--   []() _()_
+-   [Ngô Minh Huy](https://github.com/MinhHuy1507) _(23520623)_
+-   [Nguyễn Thái Gia Nguyễn](https://github.com/NTGNguyen) _(23521049)_
+-   [Dương Thông Tuệ](https://github.com/tueduonggg1203) _(None)_
