@@ -7,6 +7,7 @@
 # VS
 **/x64
 **/*.exe
+COPY
 
 # Python
 **/*.py

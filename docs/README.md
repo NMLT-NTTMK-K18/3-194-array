@@ -62,4 +62,4 @@ Làm bài tập nhóm `194 arrays`
 -   [Trương Hoàng Khiêm](https://github.com/truonghoangkhiem) _(23520730)_
 -   [Ngô Minh Huy](https://github.com/MinhHuy1507) _(23520623)_
 -   [Nguyễn Thái Gia Nguyễn](https://github.com/NTGNguyen) _(23521049)_
--   [Dương Thông Tuệ](https://github.com/tueduonggg1203) _(None)_
+-   [Dương Thông Tuệ](https://github.com/tueduonggg1203) _(23521734)_
