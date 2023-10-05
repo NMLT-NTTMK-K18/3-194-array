@@ -3,6 +3,8 @@
 .vscode
 **/*test*
 **/*temp*
+**/*.inp
+**/*.out
 
 # VS
 **/x64
