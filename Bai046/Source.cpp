@@ -18,7 +18,7 @@ int main()
 	return 0;
 }
 
-void Nhap(float a[], int &n)
+void Nhap(int a[], int &n)
 {
 	cout << "Nhap n: ";
 	cin >> n;
