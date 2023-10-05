@@ -1,7 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <cstdlib>
-#include <ctime>
 using namespace std;
 
 void Nhap(float[], int &);
@@ -22,9 +20,11 @@ void Nhap(float a[], int &n)
 {
 	cout << "Nhap n: ";
 	cin >> n;
-	srand(time(NULL));
 	for (int i = 0; i <= n - 1; i++)
-		a[i] = -100.0 + (rand() / (RAND_MAX / (100.0 - (-100.0))));
+	{
+		cout << "Nhap a[" << i << "]: ";
+		cin >> a[i];
+	}
 }
 
 void Xuat(float a[], int n)
