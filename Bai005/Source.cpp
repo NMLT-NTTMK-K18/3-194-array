@@ -7,30 +7,30 @@ void LietKe(int[], int);
 
 int main()
 {
-	int a[500];
+	int arr[500];
 	int n;
 
-	Nhap(a, n);
-	LietKe(a, n);
+	Nhap(arr, n);
+	LietKe(arr, n);
 	return 0;
 }
 
-void Nhap(int a[], int& n)
+void Nhap(int a[], int& nn)
 {
 	cout << "Nhap n: ";
-	cin >> n;
-	for (int i = 0; i < n; i++)
+	cin >> nn;
+	for (int i = 0; i < nn; i++)
 	{
 		cout << "Nhap a[" << i << "]: ";
 		cin >> a[i];
 	}
 }
 
-void LietKe(int a[], int n)
+void LietKe(int a[], int nn)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < nn; i++)
 	{
 		if (a[i] % 2 == 0)
-			cout << setw(10) << a[i];
+			cout << a[i] << setw(10);
 	}
 }

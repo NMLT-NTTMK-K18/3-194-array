@@ -8,12 +8,12 @@ void LietKe(int[], int);
 
 int main()
 {
-	int a[500];
+	int arr[500];
 	int n;
 
-	Nhap(a, n);
+	Nhap(arr, n);
 	ktToanLe(n);
-	LietKe(a, n);
+	LietKe(arr, n);
 	return 0;
 }
 
@@ -28,10 +28,10 @@ void Nhap(int a[], int& n)
 	}
 }
 
-bool ktToanLe(int n)
+bool ktToanLe(int nn)
 {
 	int flag = true;
-	int t = abs(n);
+	int t = abs(nn);
 	while (t != 0)
 	{
 		int dv = t % 10;
@@ -42,9 +42,9 @@ bool ktToanLe(int n)
 	return flag;
 }
 
-void LietKe(int a[], int n)
+void LietKe(int a[], int nn)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < nn; i++)
 	{
 		if (ktToanLe(a[i]))
 			cout << a[i] << setw(10);
