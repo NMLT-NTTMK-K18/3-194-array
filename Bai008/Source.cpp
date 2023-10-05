@@ -1,82 +1,36 @@
 #include <iostream>
 #include <iomanip>
-#include <fstream>
-#include <string>
 using namespace std;
 
-string getInputFileName(int);
-string getOutputFileName(int);
-void Nhap(float[], int&, string);
-void Xuat(float[], int, string);
-
-void Xuat(float[], int);
-float LonNhat(float[], int);
+void NhapMang(int[], int);
+int ChuSoDau(int);
+void LietKe(int[], int);
 
 int main()
 {
-	float b[100000];
-	int n;
-	for (int i = 0; i <= 13; i++)
-	{
-		string FileName = getInputFileName(i);
-		Nhap(b, n, FileName);
-
-		cout << "\n" << FileName << endl;
-		Xuat(b, n);
-
-		FileName = getOutputFileName(i);
-		Xuat(b, n, FileName);
-
-		float kq;
-		kq = LonNhat(b, n);
-		cout << "\nGia tri lon nhat trong la: " << setprecision(5) << kq;
-	}
-	return 1;
+	int a[1000]; 
+	int n; cin >> n;
+	NhapMang(a, n);
+	LietKe(a, n);
 }
 
-string getInputFileName(int n)
+void NhapMang(int a[], int n)
 {
-	string fileName = string("float data");
-	if (n < 10)
-		fileName += "0" + to_string(n) + ".inp";
-	else
-		fileName += to_string(n) + ".inp";
-	return fileName;
+	for (int i = 0; i <= n - 1; i++)
+		cin >> a[i];
 }
 
-string getOutputFileName(int n)
+int ChuSoDau(int n)
 {
-	string fileName = string("floatdata");
-	if (n < 10)
-		fileName += "0" + to_string(n) + ".out";
-	else
-		fileName += to_string(n) + ".out";
-	return fileName;
+	int dt = abs(n);
+	while (dt >= 10)
+		dt /= 10;
+	return dt;
 }
 
-void Nhap(float a[], int& n, string filename)
+void LietKe(int a[], int n)
 {
-	ifstream fi(filename);
-	fi >> n;
-	for (int i = 0; i < n; i++)
-		fi >> a[i];
-}
-
-void Xuat(float a[], int n, string filename)
-{
-	ofstream fo(filename);
-	fo << n << endl;
-	for (int i = 0; i < n; i++)
-		fo << setw(8) << setprecision(5) << a[i];
-}
-
-float LonNhat(float a[], int n)
-{
-	float lc = a[0];
-	for (int i = 0; i < n; i++)
-	{
-		if (a[i] > lc)
-			lc = a[i];
-	}
-	return lc;
+	for (int i = 0; i <= n - 1; i++)
+		if (ChuSoDau(a[i]) % 2 != 0)
+			cout << a[i]<<setw(8);
 }
