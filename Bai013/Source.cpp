@@ -1,55 +1,40 @@
 #include <iostream>
 #include <iomanip>
-#include <cstdlib>
-#include <ctime>
 using namespace std;
 
-void Nhap(float[], int&);
-void Xuat(float[], int);
-void HoanVi(float&, float&);
-void SapTang(float[], int);
+void NhapMang(int[], int);
+bool ktNguyenTo(int);
+void LietKe(int[], int);
 
 int main()
 {
-	float b[100];
-	int k;
-
-	Nhap(b, k);
-	cout << "\nMang ban dau:";
-	Xuat(b, k);
-
-	SapTang(b, k);
-	cout << "\nMang sau khi sap tang:";
-	Xuat(b, k);
+	int a[1000];
+	int n; cin >> n;
+	NhapMang(a, n);
+	LietKe(a, n);
 	return 0;
 }
 
-void Nhap(float a[], int& n)
+void NhapMang(int a[], int n)
 {
-	cout << "Nhap n:";
-	cin >> n;
-	srand(time(NULL));
-	for (int i = 0; i < n; i++)
-		a[i] = (rand() / RAND_MAX / (100.0 - (-100.0)))-100.0;
+	for (int i = 0; i <= n - 1; i++)
+		cin >> a[i];
 }
 
-void Xuat(float a[], int n)
+bool ktNguyenTo(int k)
 {
-	for (int i = 0; i < n; i++)
-		cout << setw(8) << a[i];
+	int dem = 0;
+	for (int i = 1; i <= k; i++)
+		if (k % i == 0)
+			dem++;
+	if (dem == 2)
+		return true;
+	return false;
 }
 
-void HoanVi(float& a, float& b)
+void LietKe(int a[], int n)
 {
-	float temp = a;
-	a = b;
-	b = temp;
-}
-
-void SapTang(float a[], int n)
-{
-	for (int i = 0; i <= n - 2; i++)
-		for (int j = i + 1; j <= n - 1; j++)
-			if (a[i] > a[j])
-				HoanVi(a[i], a[j]);
+	for (int i = 0; i <= n - 1; i++)
+		if (ktNguyenTo(a[i]))
+			cout << i << setw(8);
 }
