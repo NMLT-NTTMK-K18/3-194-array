@@ -21,7 +21,7 @@ void NhapMang(int a[], int n)
 		cin >> a[i];
 }
 
-int ChuSoDau(int a[], int n)
+int ChuSoDau(int n)
 {
 	int t = abs(n);
 	while (t >= 10)
