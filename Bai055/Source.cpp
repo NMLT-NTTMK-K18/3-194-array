@@ -24,7 +24,7 @@ void Nhap(int a[], int& nn)
 		cout << "Nhap a[" << i << "]: ";
 		cin >> a[i];
 	}
-}\
+}
 
 bool ktNguyenTo(int k)
 {
