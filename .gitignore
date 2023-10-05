@@ -6,9 +6,14 @@
 **/*.inp
 **/*.out
 
+# Scripts
+scripts/build/*
+scripts/dist/*
+scripts/*.spec
+
 # VS
 **/x64
-**/*.exe
+Bai*/*.exe
 COPY
 
 # Python
