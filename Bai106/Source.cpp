@@ -14,10 +14,6 @@ int main()
 
 	Nhap(array, n);
 
-	int x;
-	cout << "Nhap x: ";
-	cin >> x;
-
 	cout << "So lon nhat co dang 5^m: " << TimGiaTri(array, n);
 
 	return 0;

@@ -11,10 +11,6 @@ int main()
 
 	Nhap(array, n);
 
-	int x;
-	cout << "Nhap x: ";
-	cin >> x;
-
 	cout << "Vi tri dau tien chan: " << ViTriDau(array, n);
 
 	return 0;
