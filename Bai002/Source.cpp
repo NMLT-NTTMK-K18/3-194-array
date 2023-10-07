@@ -5,7 +5,7 @@
 using namespace std;
 
 string getInputFileName(int);
-string getOutputFilename(int);
+string getOutputFileName(int);
 void Nhap(int[], int&, string);
 void Xuat(int[], int, string);
 
