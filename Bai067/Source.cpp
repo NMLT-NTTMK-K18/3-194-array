@@ -22,8 +22,7 @@ int main()
 	cout << "\nMang b la: ";
 	for (int i = 0; i < m; i++)
 		cout << b[i]<<setw(8);
-	cout << "\nSo luong gia tri chi xuat hien mot trong hai mang so nguyen la: ";
-	cout << DemGiaTri(a, n, b, m);
+	cout << "\nSo luong gia tri chi xuat hien mot trong hai mang so nguyen la: "<<DemGiaTri(a, n, b, m);
 	return 0;
 }
 
