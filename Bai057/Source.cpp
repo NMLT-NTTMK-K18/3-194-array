@@ -13,15 +13,17 @@ int main()
 	int n;
 	int a[100000];
 	Nhap(a, n);
-	cout << TuongQuan(a, n);
+	cout << "Cac phan tu trong mang la: ";
 	for (int i = 0; i < n; i++)
-		cout << a[i]<<setw(5);
-	while (TuongQuan(a,n) == -1)
-		cout << "Chan nhieu hon le";
+	{
+		cout << a[i] << setw(5);
+	}
+	if (TuongQuan(a,n) == -1)
+		cout << "\nChan nhieu hon le";
 	if (TuongQuan(a, n) == 0)
-		cout << "Chan bang  le";
-	else
-		cout << "Le nhieu hon chan";
+		cout << "\nChan bang  le";
+	if (TuongQuan(a, n) == 1)
+		cout << "\nLe nhieu hon chan";
 	return 0;
 }
 
@@ -37,7 +39,7 @@ int DemChan(int a[], int n)
 {
 	int dem = 0;
 	for (int i = 0; i < n; i++)
-		if (i % 2 == 0)
+		if (a[i] % 2 == 0)
 			dem++;
 	return dem;
 }
@@ -46,7 +48,7 @@ int DemLe(int a[], int n)
 {
 	int dem = 0;
 	for (int i = 0; i < n; i++)
-		if (i % 2 != 0)
+		if (a[i] % 2 != 0)
 			dem++;
 	return dem;
 }
@@ -60,4 +62,5 @@ int TuongQuan(int a[], int n)
 	if (x < y)
 		return 1;
 	return 0;
+
 }
