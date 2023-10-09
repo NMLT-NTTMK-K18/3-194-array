@@ -27,6 +27,7 @@ void Nhap(float a[], int& n)
 }
 void LietKe(float a[],int n)
 {
+	cout << "Cac so duong trong mang mot chieu cac so thuc la: ";
 	for (int i = 0; i <= n - 1; i++)
 		if (a[i] > 0)
 			cout << setw(8) << setprecision(5) << a[i];

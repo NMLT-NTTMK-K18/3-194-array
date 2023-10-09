@@ -30,6 +30,7 @@ void Nhap(float a[], int& n)
 
 void LietKe(float a[], int n)
 {
+	cout << "Vi tri cac gia tri am trong mang la: ";
 	for (int i = 0; i <= n - 1; i++)
 		if (a[i] < 0)
 			cout << i<<setw(5);
