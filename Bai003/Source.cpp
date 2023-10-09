@@ -12,15 +12,18 @@ int main()
 	int a[10000];
 	int n;
 	string filename;
+
+	cout << "Nhap ten file: ";
+	cin >> filename;
+
 	Nhap(filename, a, n);
 	Xuat(a, n);
+
 	return 0;
 }
 
 void Nhap(string filename, int a[], int &n)
 {
-	cout << "Nhap ten file: ";
-	cin >> filename;
 	ifstream fi(filename);
 	fi >> n;
 	for (int i = 0; i <= n - 1; i++)
