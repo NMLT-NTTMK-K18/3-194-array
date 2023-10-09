@@ -27,6 +27,7 @@ void Nhap(float a[], int& n)
 float TongGiaTri(float a[], int n)
 {
 	float s = 0;
+	cout << "Tong cac gia tri lon hon tri tuyet doi cua gia tri dung lien sau no trong mang la: ";
 	for (int i = 0; i <= n - 2; i++)
 		if (a[i] > abs(a[i + 1]))
 			s = s + a[i];

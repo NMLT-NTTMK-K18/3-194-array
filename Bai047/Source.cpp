@@ -48,6 +48,7 @@ float TrungBinhCong(float a[], int n, float x)
 {
 	float s = TongGiaTri(a, n, x);
 	int dem = DemGiaTri(a, n, x);
+	cout << "Trung binh cong cac gia tri lon hon gia tri " << x << " trong mang la: ";
 	if (dem == 0)
 		return 0;
 	return s/dem;

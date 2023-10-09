@@ -30,6 +30,7 @@ void Nhap(float a[], int& n)
 void Xuat(float a[], int n)
 {
 	cout << n << endl;
+	cout << "Mang la: ";
 	for (int i = 0; i <= n - 1; i++)
 		cout << setw(10) << setprecision(5) << a[i];
 }

@@ -40,6 +40,7 @@ bool ktDoiXung(int n)
 
 int TongDoiXung(int a[], int n)
 {
+	cout << "Tong cac gia tri doi xung trong mang cac so nguyen la: ";
 	int s = 0;
 	for (int i = 0; i <= n - 1; i++)
 		if (ktDoiXung(a[i]))

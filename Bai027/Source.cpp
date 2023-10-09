@@ -22,9 +22,7 @@ void Nhap(float a[], int& n)
 	cin >> n;
 	srand(time(NULL));
 	for (int i = 0; i <= n - 1; i++)
-		a[i] = -100 + (rand() / ((RAND_MAX) / (100 - (-100))));
-	for (int i = 0; i <= n - 1; i++)
-		cout << a[i]<<setw(5);
+		a[i] = -100.0 + (rand() / ((RAND_MAX) / (100.0 - (-100.0))));
 }
 
 float AmDau(float a[], int n)
@@ -37,13 +35,14 @@ float AmDau(float a[], int n)
 
 void LietKe(float a[], int n)
 {
-	float ad = AmDau(a,n);
-	if (ad == 0)
-	{
+	float ad = AmDau(a, n);
+	 if (ad == 0)
+	 { 
 		cout << "\nKhong co gia tri am";
 		return;
-	}
+	 }
+	 cout << "vi tri trong mang bang gia tri am dau tien trong mang la: ";
 	for (int i = 0; i <= n - 1; i++)
-		if (a[i] == ad)
-			cout << i<<setw(5);
+		 if (a[i] == ad)
+		cout << i<<setw(5);
 }

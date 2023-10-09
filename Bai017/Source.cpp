@@ -28,11 +28,13 @@ void Nhap(int a[], int& n)
 }
 
 void LietKe(int a[], int n)
-{
+{ 
+	cout << "Cac gia tri chan trong mang la: ";
 	for (int i = 0; i <= n - 1; i++)
 		if (a[i] % 2 == 0)
 			cout << a[i] << setw(5);
 	cout << endl;
+	cout << "Cac gia tri le trong mang la: ";
 	for (int i = 0; i <= n; i++)
 		if (a[i] % 2 != 0)
 			cout  << a[i] << setw(5);

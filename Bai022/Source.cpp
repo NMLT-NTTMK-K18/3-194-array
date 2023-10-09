@@ -26,6 +26,7 @@ void Nhap(int a[], int& n)
 
 void LietKe(int a[], int n)
 {
+	cout << "Cac gia tri thoa nho hon tri tuyet doi cua gia tri dung lien sau no va lon hon gia tri dung lien truoc no la: ";
 	for (int i = 1; i <= n - 2; i++)
 		if(a[i]<abs(a[i+1])&&a[i]>a[i-1])
 			cout << a[i] << setw(5);

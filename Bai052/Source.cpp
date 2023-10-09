@@ -28,6 +28,7 @@ void Nhap(int a[], int& n)
 int DemGiaTri(int a[], int n)
 {
 	int dem = 0;
+	cout << "So luong gia tri co chu so tan cung bang 5 trong mang la: ";
 	for (int i = 0; i < n; i++)
 		if (abs(a[i]) % 10 == 5)
 			dem++;
