@@ -15,13 +15,15 @@ int main()
 	int m;
 	int b[10000];
 	Nhap(a, n,b,m);
+	
 	cout << "Mang a la: ";
 	for (int i = 0; i < n; i++)
-		cout << a[i];
-	cout << "Mang b la: ";
+		cout << a[i]<<setw(8);
+	cout << "\nMang b la: ";
 	for (int i = 0; i < m; i++)
 		cout << b[i]<<setw(8);
-	cout << "So luong gia tri chi xuat hien mot trong hai mang la: " << DemGiaTri(a, n, b, m);
+	cout << "\nSo luong gia tri chi xuat hien mot trong hai mang so nguyen la: ";
+	cout << DemGiaTri(a, n, b, m);
 	return 0;
 }
 
@@ -53,7 +55,7 @@ int DemGiaTri(int a[], int n, int b[], int m)
 	for (int i = 0; i < n; i++)
 	{
 		int flag = 1;
-		for (int j = 0; j <= i - 1; i++)
+		for (int j = 0; j <= i - 1; j++)
 			if (a[j] == a[i])
 				flag = 0;
 		if (TanSuat(b, m, a[i]) == 0 && flag == 1)
