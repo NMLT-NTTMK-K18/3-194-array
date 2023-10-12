@@ -11,7 +11,12 @@ void Nhap(float[], int&);
 
 int main()
 {
-
+	int n;
+	int vtd;
+	int vtc;
+	float a[10000];
+	Nhap(a, n);
+	DuongLonNhat(a, n, vtd, vtc);
 	return 0;
 }
 
@@ -70,4 +75,5 @@ void DuongLonNhat(float a[], int n,int& vtd, int& vtc)
 				vtc = vt + l - 1;
 				smax = TongCon(a, n, vt, l);
 		    }
+	cout << smax;
 }
