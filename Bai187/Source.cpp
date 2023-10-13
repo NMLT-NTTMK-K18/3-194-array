@@ -72,8 +72,10 @@ void DuongLonNhat(float a[], int n,int& vtd, int& vtc)
 			     TongCon(a, n, vt, l) > smax)
 		    {
 				vtd = vt;
-				vtc = vt + l - 1;
+				vtc = vt + l-1 ;
 				smax = TongCon(a, n, vt, l);
 		    }
-	cout << smax;
+	cout << "Day lon nhat la: ";
+	for (int k = vtd; k <= vtc; k++)
+		cout << a[k]<<setw(8);
 }
