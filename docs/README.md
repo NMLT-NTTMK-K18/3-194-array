@@ -4,8 +4,8 @@
 
 ## INPUT SAMPLE FILES
 
-[![Int input files](https://img.shields.io/badge/int_inp-download-orange?style=for-the-badge)](../../../../Utilities/download/INP/INT_DATA_INP.zip)
-[![Float input files](https://img.shields.io/badge/float_inp-download-yellow?style=for-the-badge)](../../../../Utilities/download/INP/FLOAT_DATA_INP.zip)
+[![Int input files](https://img.shields.io/badge/int_inp-download-orange?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_DATA_INP.zip)
+[![Float input files](https://img.shields.io/badge/float_inp-download-yellow?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_DATA_INP.zip)
 
 ## REPO INFO
 
