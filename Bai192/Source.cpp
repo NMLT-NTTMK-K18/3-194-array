@@ -41,13 +41,14 @@ void Nhap(PHANSO a[], int& n)
 	for (int i = 0; i < n; i++)
 	{
 		cout << "Nhap a[" << i << "]:";
+		cout << endl;
 		Nhap(a[i]);
 	}
 }
 int SoSanh(PHANSO x, PHANSO y)
 {
-	int a = (int)x.Tu / x.Mau;
-	int b = (int)y.Tu / y.Mau;
+	float a = (float)(x.Tu / x.Mau);
+	float b = (float)(y.Tu / y.Mau);
 	if (a > b)
 		return 1;
 	if (a < b)
@@ -59,7 +60,7 @@ int SoSanh(PHANSO x, PHANSO y)
 
 void Xuat(PHANSO x)
 {
-	cout << x.Tu << "/" << x.Mau;
+	cout << x.Tu << "/" << x.Mau<<setw(8);
 }
 
 void Xuat(PHANSO a[], int n)
@@ -72,16 +73,13 @@ void SapXep(PHANSO a[], int n)
 {
 	for (int i = 0; i <= n - 2; i++)
 		for (int j = i + 1; j <= n - 1; j++)
-		if (SoSanh(a[i], a[j]) == -1)
+		if (SoSanh(a[i], a[j]) == 1)
 		{
 			PHANSO temp = a[i];
 			a[i] = a[j];
 			a[j] = temp;
 		}
 
-	for (int i = 0; i <= n - 1; i++)
-	{
 		Xuat(a, n);
 		cout << "    ";
-	}
 }
