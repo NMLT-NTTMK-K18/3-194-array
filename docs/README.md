@@ -1,6 +1,6 @@
 # 5 - 194 - ARRAY 🫠
 
-![STT - 5](https://img.shields.io/badge/STT-5-EDB7ED?style=for-the-badge)
+![STT - 3](https://img.shields.io/badge/STT-3-EDB7ED?style=for-the-badge)
 ![Bài tập - 194 Array](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-194_array-8DDFCB?style=for-the-badge)
 ![Ải - 5](https://img.shields.io/badge/%E1%BA%A3i-5-ECEE81?style=for-the-badge)
 
