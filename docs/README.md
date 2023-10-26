@@ -8,9 +8,9 @@
 
 ## REPO INFO
 
-[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/3-194-array?style=for-the-badge)](../../../commits/main)
-![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/3-194-array?style=for-the-badge)
-[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/3-194-array?style=for-the-badge)](../../../graphs/contributors)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/3-194-array?style=for-the-badge&color=CAEDFF)](../../../commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/3-194-array?style=for-the-badge&color=D8B4F8)
+[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/3-194-array?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
 [![WorkedProject Badge](https://img.shields.io/badge/worked_project-190%2F194-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT03.rar/)
@@ -19,8 +19,8 @@
 
 ## INPUT SAMPLE FILES
 
-[![Int input files](https://img.shields.io/badge/int_inp-download-orange?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_DATA_INP.zip)
-[![Float input files](https://img.shields.io/badge/float_inp-download-yellow?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_DATA_INP.zip)
+[![Int input files](https://img.shields.io/badge/int_inp-download-CAEDFF?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_DATA_INP.zip)
+[![Float input files](https://img.shields.io/badge/float_inp-download-D8B4F8?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_DATA_INP.zip)
 
 ---
 
