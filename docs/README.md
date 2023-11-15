@@ -15,6 +15,7 @@
 
 [![WorkedProject Badge](https://img.shields.io/badge/progress-190%20%2F%20194-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT03.rar/)
+[![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT03.txt/)
 
 ---
 
